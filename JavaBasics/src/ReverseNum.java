@@ -2,8 +2,7 @@ public class ReverseNum {
 
             public static void main(String[] args){
 
-
-            int num = 1234, r = 0;
+            int num = 87654321, r = 0;
 
             System.out.println("Original Number: " + num);
 
@@ -17,7 +16,6 @@ public class ReverseNum {
                 // remove the last digit from num
                 num = num/10;
             }
-
             System.out.println("Reversed Number: " + r);
         }
     }
