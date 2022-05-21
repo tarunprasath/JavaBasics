@@ -1,0 +1,5 @@
+/out/production/JavaBasics/*.class
+/.idea/*.xml
+/*.iml
+/.idea/.gitignore
+

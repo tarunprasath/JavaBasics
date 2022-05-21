@@ -2,13 +2,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArraylistSortInt {
-    public static ArrayList<Integer> forwardsort(ArrayList<Integer> a){
+    public static void forwardsort(ArrayList<Integer> a){
         Collections.sort(a);
-        return a;
     }
-    public static ArrayList<Integer> reversesort(ArrayList<Integer> a){
+    public static void reversesort(ArrayList<Integer> a){
         Collections.sort(a, Collections.reverseOrder());
-        return a;
     }
     public static void main(String[] args){
         ArrayList<Integer> a = new ArrayList<Integer>();
