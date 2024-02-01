@@ -4,7 +4,6 @@ public class ReverseString {
         char ch;
 
         int num = 2134;
-
         for (int i = 0;i < stringtorev.length();i++ ){
             ch = stringtorev.charAt(i);
             rstr = ch + rstr;
