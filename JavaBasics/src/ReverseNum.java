@@ -2,7 +2,7 @@ public class ReverseNum {
 
             public static void main(String[] args){
 
-            int num = 87654321, r = 0;
+            int num = 12345678, r = 0;
 
             System.out.println("Original Number: " + num);
 
