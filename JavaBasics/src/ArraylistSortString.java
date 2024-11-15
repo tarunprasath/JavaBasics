@@ -10,6 +10,7 @@ public class ArraylistSortString {
         a.add("Food");
         a.add("12345");
         a.add("qwert");
+        a.add("yuii");        
         Collections.sort(a);
         System.out.println(a);
     }
